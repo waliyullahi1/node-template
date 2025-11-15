@@ -15,6 +15,11 @@
     "commitlint": "commitlint --edit",
     "sync-envs": "node sync-env-files"
   },
+
+  "_moduleAliases": {
+    "@app": "."
+  },
+
   "keywords": [],
   "author": "Resilience17",
   "license": "ISC",
@@ -54,6 +59,7 @@
     "joi": "^17.12.2",
     "jsonwebtoken": "^9.0.2",
     "knex": "^3.1.0",
+    "module-alias": "^2.2.3",
     "mongoose": "^8.2.0",
     "mysql2": "^3.9.1",
     "pino": "^8.19.0",
