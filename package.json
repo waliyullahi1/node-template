@@ -17,8 +17,9 @@
   },
 
   "_moduleAliases": {
-    "@app": "."
-  },
+  "@app-core": "core",
+  "@app": "."
+},
 
   "keywords": [],
   "author": "Resilience17",
